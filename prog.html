@@ -1,0 +1,31 @@
+<html>
+   <head>
+     <title>DDD (Discagem Direta à Distância)<title>
+   </head>
+   <body>
+     <input type = 'text' placeholder='DDD' id=' discar' size ='2'>
+	 <hr></hr>
+	 <ul></ul>
+	 <script>
+	    document.querySelector(#discar).addEventListener('change',searchCities)
+		  function
+		     searchCities(event) { fetch ('https://brasilapi.com.br/api/ddd/v1/${event. target. value}')
+			                   .then(answer => answer.json())
+							   .then(data => listCities(data.cities)
+							   });
+							}
+							function listCities(cities) {
+							     const size = cities.length;
+								 const list = document.querySelector('ul');
+								      list.innerHTML  = '<ul></ul>
+								 for (let i = 0; i < size; i ++) {
+								 item = document.createElement('li'):
+								        article.textContent = cities[i];
+										       list.attach(item);
+											                           }
+	                         }
+	 </script>
+	</body>
+</html>
+</html>
+							
