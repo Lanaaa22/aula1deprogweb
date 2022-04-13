@@ -4,7 +4,7 @@ subtitulos.forEach(element => {
 	topicos.push(element.textContent);
 	
 	const variavel = document.createElement("a");
-	ancora.setAttribute("name", element.textContent);
+	variavel.setAttribute("name", element.textContent);
 	element.append(variavel);
 	
 
