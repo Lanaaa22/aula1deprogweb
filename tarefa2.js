@@ -3,11 +3,11 @@ const topicos = new Array();
 subtitulos.forEach(element => {
 	topicos.push(element.textContent);
 	
-	const variavel = document.createElement("a");
-	variavel.setAttribute("name", element.textContent);
-	element.append(variavel);
+	const arco = document.createElement("a");
+	arco.setAttribute("name", element.textContent);
+	element.append(arco);
 	
-
+	
 });
 
 const lista = document.querySelector("ol");
