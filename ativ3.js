@@ -1,15 +1,6 @@
-let tamanho = 16;
+let tamanho = 32;
 function mudaFonte() {
   document.querySelector("h1, h2, h3, h4, h5, h6").style.fontSize=tamanho+"px";
-}
-
-function cria_botao(texto){
-  const botao = document.createElement("button")
-  botao.setAttribute('type', 'button')
-  botao.setAttribute('name', 'bot')
-  botao.innerHTML = texto
-  return botao
-
 }
 
 function diminuirFonte(){  
